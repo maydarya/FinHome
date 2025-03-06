@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="617b34ba-329f-4d2e-90b9-68be56cfa4da">
+		<Name>БанковскийСчет</Name>
+		<Code>000000001</Code>
+		<Description>Банковский счет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1d3b6851-9e8a-45de-8bdc-26a905264eef">
+		<Name>Наличные</Name>
+		<Code>000000002</Code>
+		<Description>Наличные</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3dc812b0-57f1-4964-ae81-892d06048276">
+		<Name>Вклад</Name>
+		<Code>000000003</Code>
+		<Description>Вклад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b961f4c-43f3-467d-b7a2-1854391f59c1">
+		<Name>БанковскаяКарта</Name>
+		<Code>000000004</Code>
+		<Description>Банковская карта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d97a2ebb-cd7b-46d2-84ee-494ef3d395d5">
+		<Name>КриптоКошелек</Name>
+		<Code>000000005</Code>
+		<Description>Крипто-кошелек</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f3b3ad79-c886-453c-b1c4-c5bccc6d317c">
+		<Name>Копилка</Name>
+		<Code>000000006</Code>
+		<Description>Копилка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="57bff074-e2fd-40d3-bb0b-5e27ef3bc9bf">
+		<Name>Заначка</Name>
+		<Code>000000007</Code>
+		<Description>Заначка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

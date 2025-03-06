@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ДвиженияДС" id="d549f93f-7459-4ab2-b3c9-2ab0a70a148b" configVersion="ff673d595e78dc4c8300f466c5d5af6400000000">
+			<Metadata name="AccumulationRegister.ДвиженияДС.Resource.Сумма" id="3f00c145-2171-4ae6-8a38-f60fe402ff15"/>
+			<Metadata name="AccumulationRegister.ДвиженияДС.Dimension.ЧленСемьи" id="485d477a-ee8c-4e77-ba27-5537a86ab225"/>
+			<Metadata name="AccumulationRegister.ДвиженияДС.Dimension.ВидДС" id="c61a8a2a-68a0-48c9-8379-15c86c89d46e"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.ПланРасходаДС" id="e3defa58-b0d8-4241-8322-720e3b26b742" configVersion="f821699fbc2ee7478c6e76edefb7749400000000">
+			<Metadata name="AccumulationRegister.ПланРасходаДС.Dimension.СтатьяРасходов" id="64c352e7-2c02-4357-ace4-489cf71d6de9"/>
+			<Metadata name="AccumulationRegister.ПланРасходаДС.Dimension.ВидДС" id="8c2ce747-6bc7-4c9b-af2f-3ffd0b81e4f7"/>
+			<Metadata name="AccumulationRegister.ПланРасходаДС.Dimension.ЧленСемьи" id="bcab825b-73f7-40a5-9ef6-c0be4be1bf13"/>
+			<Metadata name="AccumulationRegister.ПланРасходаДС.Resource.Сумма" id="c4e17871-ca14-4f87-b157-a3dfbdec587c"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.ПоступенияДС" id="be36cec2-d604-4503-babf-750283276758" configVersion="b952dd366e9aec41a21d5206442bd47700000000">
+			<Metadata name="AccumulationRegister.ПоступенияДС.Dimension.ЧленСемьи" id="2a69ce11-4ac2-4c9f-bd4e-c08a791c2acd"/>
+			<Metadata name="AccumulationRegister.ПоступенияДС.Dimension.СтатьяДоходов" id="50a20a5e-0ade-4654-bb6c-db9503619dc7"/>
+			<Metadata name="AccumulationRegister.ПоступенияДС.Resource.Сумма" id="d2109afa-6f85-442e-ab11-1bb4c94f86f3"/>
+			<Metadata name="AccumulationRegister.ПоступенияДС.Dimension.ВидДС" id="d34fd0b7-68f7-461b-9738-5b50ea9e9a99"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.СписанияДС" id="637e47e7-9793-43d4-bec8-c2bc8ef585a2" configVersion="58b3cf03b4de7b44a502cddd0852ba2c00000000">
+			<Metadata name="AccumulationRegister.СписанияДС.Dimension.СтатьяРасходов" id="16c7830b-e718-4240-8789-9ae4a8c28e8a"/>
+			<Metadata name="AccumulationRegister.СписанияДС.Dimension.ВидДС" id="8785363d-ca0a-42cf-869b-30f33b35b028"/>
+			<Metadata name="AccumulationRegister.СписанияДС.Dimension.ЧленСемьи" id="a62f90c5-315b-4ad3-a0ca-55c0071c7d0a"/>
+			<Metadata name="AccumulationRegister.СписанияДС.Resource.Сумма" id="ece51d35-c3f4-4d5a-9f35-08d159faed13"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыДенежныхСредств" id="84578aa3-5c01-4da2-86f9-e0c8b91a5f08" configVersion="6fb5ad21adc8284f9d3a3a4d7035c9f000000000"/>
+		<Metadata name="Catalog.ВидыДенежныхСредств.Predefined" id="84578aa3-5c01-4da2-86f9-e0c8b91a5f08.1c" configVersion="8e56ba8ff0a1224a8deb46aecbcdf6d100000000"/>
+		<Metadata name="Catalog.СоставСемьи" id="fa119fea-480b-4a84-a906-711a107960f8" configVersion="f7b94f664e527f47a6268321ce0444fb00000000">
+			<Metadata name="Catalog.СоставСемьи.Attribute.Возраст" id="335b18c8-fcd4-4e7a-8618-3ed44555e4c4"/>
+			<Metadata name="Catalog.СоставСемьи.Attribute.ДатаРождения" id="537675e8-d2da-4b67-bc4e-fb9153b786f2"/>
+		</Metadata>
+		<Metadata name="Catalog.СоставСемьи.Form.ФормаЭлемента" id="8a73d7ef-513c-44c2-bc0f-e5dd636780a2" configVersion="6d692a7d3f524e48a09fc865b39f00d500000000"/>
+		<Metadata name="Catalog.СоставСемьи.Form.ФормаЭлемента.Form" id="8a73d7ef-513c-44c2-bc0f-e5dd636780a2.0" configVersion="656dd23fcae856419a3435d2ff03c58200000000"/>
+		<Metadata name="Catalog.СтатьиДоходов" id="9151b1d1-2ed0-4fef-b839-5c461fda3647" configVersion="5847b354842b6c429e9439575b21166500000000"/>
+		<Metadata name="Catalog.СтатьиДоходов.Predefined" id="9151b1d1-2ed0-4fef-b839-5c461fda3647.1c" configVersion="7209fedf0ce1e54e8f1419a09fbcecac00000000"/>
+		<Metadata name="Catalog.СтатьиРасходов" id="9d6a974b-ca01-4435-b7d6-46f0b87e50f2" configVersion="cf733e905b749d48aaccceceb1ec978b00000000"/>
+		<Metadata name="Catalog.СтатьиРасходов.Predefined" id="9d6a974b-ca01-4435-b7d6-46f0b87e50f2.1c" configVersion="1c54b27d74e5f645831a2393ba11d04b00000000"/>
+		<Metadata name="Configuration.FinHome" id="d92c0d4d-1d20-4b40-98d8-295c1f8a7eb7" configVersion="a32eb9a03f980b4ebcab9c4bba5717bd00000000"/>
+		<Metadata name="Document.ПланРасходаДС" id="7c7193e5-b3cd-4da1-b7f4-58e176691830" configVersion="20c7332a6ab4e04bbb808ddf90a456b500000000">
+			<Metadata name="Document.ПланРасходаДС.TabularSection.План.Attribute.Сумма" id="592bc61a-57a4-4a6b-956c-c119ba558694"/>
+			<Metadata name="Document.ПланРасходаДС.TabularSection.План" id="602ed908-2586-4a2e-9e30-4d615840202e"/>
+			<Metadata name="Document.ПланРасходаДС.TabularSection.План.Attribute.ВидДС" id="95e330a5-312b-46c3-aea1-15da356e536c"/>
+			<Metadata name="Document.ПланРасходаДС.TabularSection.План.Attribute.ЧленСемьи" id="c846166a-608d-4ecd-b449-af33a76377ea"/>
+			<Metadata name="Document.ПланРасходаДС.TabularSection.План.Attribute.СтатьяРасходов" id="e3f6991c-c2df-4109-9994-68bcd8cbe8f7"/>
+		</Metadata>
+		<Metadata name="Document.ПланРасходаДС.Form.ФормаДокумента" id="0be49b42-98a7-4540-ae92-59865a772e0b" configVersion="f1d23a65abc53e47af2629f8973d0cb400000000"/>
+		<Metadata name="Document.ПланРасходаДС.Form.ФормаДокумента.Form" id="0be49b42-98a7-4540-ae92-59865a772e0b.0" configVersion="a39bc7c7ae5a6b4f8ae46cb4dc9240f200000000"/>
+		<Metadata name="Document.ПланРасходаДС.ObjectModule" id="7c7193e5-b3cd-4da1-b7f4-58e176691830.0" configVersion="d0ddc39a6704794385bff67dd0c1b16f00000000"/>
+		<Metadata name="Document.ПоступленияДС" id="b48e1bcb-e963-4895-a887-9cbf2ac9bc72" configVersion="46eedfd4fe9d8944b7a7e49904b8975100000000">
+			<Metadata name="Document.ПоступленияДС.TabularSection.Поступления.Attribute.Сумма" id="196b9a16-e175-46ee-a495-2a8658b7491c"/>
+			<Metadata name="Document.ПоступленияДС.TabularSection.Поступления.Attribute.ЧленСемьи" id="1aa097ac-3e96-4a26-890a-08a316108300"/>
+			<Metadata name="Document.ПоступленияДС.TabularSection.Поступления.Attribute.СтатьяДоходов" id="76586dce-1bbf-4232-a0bc-586c360a37e8"/>
+			<Metadata name="Document.ПоступленияДС.TabularSection.Поступления" id="b5b68c39-3259-4dea-b5b0-6d7c23f3b17d"/>
+			<Metadata name="Document.ПоступленияДС.TabularSection.Поступления.Attribute.ВидДС" id="c8fd6126-b8ad-441f-a123-2539ce1b853d"/>
+		</Metadata>
+		<Metadata name="Document.ПоступленияДС.Form.ФормаДокумента" id="1a20e81d-311a-4f17-8ff0-b2b47a3bb5a1" configVersion="dec68a1ebbf53843b9293568ac3c17be00000000"/>
+		<Metadata name="Document.ПоступленияДС.Form.ФормаДокумента.Form" id="1a20e81d-311a-4f17-8ff0-b2b47a3bb5a1.0" configVersion="613fc002e50fd149b5764f8b8662958e00000000"/>
+		<Metadata name="Document.ПоступленияДС.ObjectModule" id="b48e1bcb-e963-4895-a887-9cbf2ac9bc72.0" configVersion="fb5c07994bd8434b94588d755e8a720200000000"/>
+		<Metadata name="Document.СписанияДС" id="286a6f51-e7ba-42fd-a3b9-d1c2d703028b" configVersion="d3b3d3451d15f541af7ed5c796f3739100000000">
+			<Metadata name="Document.СписанияДС.TabularSection.Списания.Attribute.ЧленСемьи" id="19af6eaa-6b71-4a28-b3fd-1cfd05e2b00c"/>
+			<Metadata name="Document.СписанияДС.TabularSection.Списания.Attribute.ВидДС" id="1e572017-952a-4905-83e5-f9c99742db14"/>
+			<Metadata name="Document.СписанияДС.TabularSection.Списания.Attribute.Сумма" id="39d2d00f-eb06-4bfd-8936-805bba1114ae"/>
+			<Metadata name="Document.СписанияДС.TabularSection.Списания" id="5a128824-c9ae-4499-9801-aef42c32b0b8"/>
+			<Metadata name="Document.СписанияДС.TabularSection.Списания.Attribute.СтатьяРасходов" id="8b7ed662-48f4-47db-b63b-291d4f9aaddd"/>
+		</Metadata>
+		<Metadata name="Document.СписанияДС.Form.ФормаДокумента" id="e97ede25-3f53-43fb-bf44-0d73ee955335" configVersion="fa7c27489b4d8b4d931f070013cbbc3900000000"/>
+		<Metadata name="Document.СписанияДС.Form.ФормаДокумента.Form" id="e97ede25-3f53-43fb-bf44-0d73ee955335.0" configVersion="27343aa23095c3489c5741e0c132117800000000"/>
+		<Metadata name="Document.СписанияДС.ObjectModule" id="286a6f51-e7ba-42fd-a3b9-d1c2d703028b.0" configVersion="ac1cbfc6138cd9478d447c1875678bef00000000"/>
+		<Metadata name="Language.Русский" id="5a0f632a-97e6-41a0-ad0b-b039a1e4a0dd" configVersion="4c8a38a410762744a62f18446fe0fdc000000000"/>
+		<Metadata name="Report.ВедомостьПоДенежнымСредствам" id="110e8c27-a759-4926-bbdc-27d595f6cb6a" configVersion="c771af4569c86a4eb8ffcea77554274400000000"/>
+		<Metadata name="Report.ВедомостьПоДенежнымСредствам.Template.ОсновнаяСхемаКомпоновкиДанных" id="c6af7239-e084-435b-bc8e-0ec33cb7d900" configVersion="3eac1a54c94e704b91922b45ab9d33de00000000"/>
+		<Metadata name="Report.ВедомостьПоДенежнымСредствам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c6af7239-e084-435b-bc8e-0ec33cb7d900.0" configVersion="6c5d65eb3bf4d343bad208af23c180cc00000000"/>
+		<Metadata name="Report.ВедомостьПоступленийДС" id="d547a802-e9a4-48e4-98e7-cb836a31c6d2" configVersion="7564b3041caa25499100fe252a8f4eb200000000"/>
+		<Metadata name="Report.ВедомостьПоступленийДС.Template.ОсновнаяСхемаКомпоновкиДанных" id="3ea70de5-8bdf-4aef-9b5d-617d8260be5a" configVersion="2593e4af5ab0b340b1f07d95d92655f500000000"/>
+		<Metadata name="Report.ВедомостьПоступленийДС.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3ea70de5-8bdf-4aef-9b5d-617d8260be5a.0" configVersion="bd0f3df72058a94fb630faa6ffaf541a00000000"/>
+		<Metadata name="Report.ВедомостьСписанийДС" id="2e587b98-5cad-4758-9fae-fa594b73bd20" configVersion="b5e894fd95c2b14c91421b776208d2c100000000"/>
+		<Metadata name="Report.ВедомостьСписанийДС.Template.ОсновнаяСхемаКомпоновкиДанных" id="c6244650-da27-4540-93cb-9c95324473dc" configVersion="d718560a3e15d043b7aea42376f0336c00000000"/>
+		<Metadata name="Report.ВедомостьСписанийДС.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="c6244650-da27-4540-93cb-9c95324473dc.0" configVersion="a32746bd66a87b4b825715d41a4aa42c00000000"/>
+		<Metadata name="Subsystem.Главное" id="e4748360-fb85-4dce-a30f-a8b6778ed0ef" configVersion="d5849900cd1ea849ae16211071e4047400000000"/>
+		<Metadata name="Subsystem.Планирование" id="522d4841-3cc7-4b7a-98c3-d419354d003b" configVersion="ba828b54d0bf6d4191b24de20bd7de0100000000"/>
+		<Metadata name="Subsystem.Поступления" id="c4ab2319-2c91-469b-a13e-a5c5d803d26f" configVersion="016ebfa5d73c174aa798119524848f2400000000"/>
+		<Metadata name="Subsystem.Расходы" id="1f1cd62e-61df-4b21-aeb9-b22af7460c39" configVersion="9ca8ecbdcef94a46a062dd565dc1b86a00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

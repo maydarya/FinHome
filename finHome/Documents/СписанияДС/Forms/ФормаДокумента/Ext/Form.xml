@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<RadioButtonField name="ВыборРасшифровки" id="39">
+			<DataPath>ВыборРасшифровки</DataPath>
+			<RadioButtonType>Tumbler</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Без разбиения</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">1</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Списком</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">2</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ВыборРасшифровкиКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="ВыборРасшифровкиРасширеннаяПодсказка" id="41"/>
+			<Events>
+				<Event name="OnChange">РасшифровкаПриИзменении</Event>
+			</Events>
+		</RadioButtonField>
+		<UsualGroup name="Группа1" id="35">
+			<Visible>false</Visible>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<Table name="Списания" id="7">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Списания</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписанияКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="СписанияКоманднаяПанель" id="9"/>
+					<ExtendedTooltip name="СписанияРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="СписанияСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>Списания</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписанияСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="СписанияСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписанияСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>Списания</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписанияСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="СписанияСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписанияУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>Списания</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписанияУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="СписанияУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="СписанияНомерСтроки" id="20">
+							<DataPath>Объект.Списания.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписанияНомерСтрокиКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="СписанияНомерСтрокиРасширеннаяПодсказка" id="22"/>
+						</LabelField>
+						<InputField name="СписанияЧленСемьи" id="23">
+							<DataPath>Объект.Списания.ЧленСемьи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписанияЧленСемьиКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="СписанияЧленСемьиРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="СписанияВидДС" id="26">
+							<DataPath>Объект.Списания.ВидДС</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписанияВидДСКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="СписанияВидДСРасширеннаяПодсказка" id="28"/>
+						</InputField>
+						<InputField name="СписанияСтатьяРасходов" id="29">
+							<DataPath>Объект.Списания.СтатьяРасходов</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписанияСтатьяРасходовКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="СписанияСтатьяРасходовРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="СписанияСумма" id="32">
+							<DataPath>Объект.Списания.Сумма</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписанияСуммаКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="СписанияСуммаРасширеннаяПодсказка" id="34"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="37">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<InputField name="БезРасшифровкиЧленСемьи" id="42">
+					<DataPath>РасшифровкаБезРазбиенияЧленСемьи</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧленСемьи</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="БезРасшифровкиЧленСемьиКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="БезРасшифровкиЧленСемьиРасширеннаяПодсказка" id="44"/>
+					<Events>
+						<Event name="OnChange">РасшифровкаБезРазбиенияЧленСемьиПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="БезРасшифровкиВидДС" id="45">
+					<DataPath>РасшифровкаБезРазбиенияВидДС</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВидДС</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="БезРасшифровкиВидДСКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="БезРасшифровкиВидДСРасширеннаяПодсказка" id="47"/>
+					<Events>
+						<Event name="OnChange">РасшифровкаБезРазбиенияВидДСПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="БезРасшифровкиСтатьяРасходов" id="48">
+					<DataPath>РасшифровкаБезРазбиенияСтатьяРасходов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статья расходов</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="БезРасшифровкиСтатьяРасходовКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="БезРасшифровкиСтатьяРасходовРасширеннаяПодсказка" id="50"/>
+					<Events>
+						<Event name="OnChange">РасшифровкаБезРазбиенияСтатьяРасходовПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="БезРасшифровкиСумма" id="51">
+					<DataPath>РасшифровкаБезРазбиенияСумма</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="БезРасшифровкиСуммаКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="БезРасшифровкиСуммаРасширеннаяПодсказка" id="53"/>
+					<Events>
+						<Event name="OnChange">РасшифровкаБезРазбиенияСуммаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.СписанияДС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ВыборРасшифровки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбор расшифровки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасшифровкаБезРазбиенияЧленСемьи" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка без разбиения член семьи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СоставСемьи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасшифровкаБезРазбиенияВидДС" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка без разбиения вид ДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыДенежныхСредств</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасшифровкаБезРазбиенияСтатьяРасходов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка без разбиения статья расходов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СтатьиРасходов</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасшифровкаБезРазбиенияСумма" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка без разбиения сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="a78ee54b-472f-4eb3-a540-983d489197d8">
+		<Name>Продукты</Name>
+		<Code>000000001</Code>
+		<Description>Продукты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="49be4120-90b0-40a9-9578-1bda95f7297c">
+		<Name>Медицина</Name>
+		<Code>000000002</Code>
+		<Description>Медицина</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b3da9349-cc3f-47e5-9819-61d62c04a143">
+		<Name>Проезд</Name>
+		<Code>000000003</Code>
+		<Description>Проезд</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7e292466-9670-471d-8f33-be17fcac9dd5">
+		<Name>Обучение</Name>
+		<Code>000000004</Code>
+		<Description>Обучение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5967889c-4fc7-460b-8656-146fe493c2ff">
+		<Name>ГСМ</Name>
+		<Code>000000005</Code>
+		<Description>ГСМ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c73c0b23-5877-4174-86ee-6af5cde391a5">
+		<Name>Автомобиль</Name>
+		<Code>000000006</Code>
+		<Description>Автомобиль</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="998c5e83-ea4b-4f67-88a9-d4a6379a6f4b">
+		<Name>Подарок</Name>
+		<Code>000000007</Code>
+		<Description>Подарок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95044ba7-1e46-4f3c-be4d-b34d635d0469">
+		<Name>Кредит</Name>
+		<Code>000000008</Code>
+		<Description>Кредит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f83c857e-6caf-47fd-ab83-b9950317cbef">
+		<Name>Проценты</Name>
+		<Code>000000009</Code>
+		<Description>Проценты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="839dc25d-ef89-4437-8dc1-bffee669f952">
+		<Name>Вклад</Name>
+		<Code>000000010</Code>
+		<Description>Вклад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cdbe3723-b5ed-49ad-93c2-18cea830ddb8">
+		<Name>ПередачаВДолг</Name>
+		<Code>000000011</Code>
+		<Description>Передача в долг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2dc76d9-d82e-45bf-bc46-ebe954244745">
+		<Name>ВозвратДолга</Name>
+		<Code>000000012</Code>
+		<Description>Возврат долга</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7591e40d-3e87-4413-973a-3a52fc506f7d">
+		<Name>Спорт</Name>
+		<Code>000000013</Code>
+		<Description>Спорт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f7f4f215-495e-49c2-9e4d-4bebf234be39">
+		<Name>Ипотека</Name>
+		<Code>000000014</Code>
+		<Description>Ипотека</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="202896b2-1f36-486b-b565-416a163ce402">
+		<Name>Секция</Name>
+		<Code>000000015</Code>
+		<Description>Секция</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7488ec08-b1fd-4181-82ab-ee86f18771d4">
+		<Name>Одежда</Name>
+		<Code>000000016</Code>
+		<Description>Одежда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1ba959a-f4a8-45a4-b215-b2135cfd792a">
+		<Name>КоммунальныеУслуги</Name>
+		<Code>000000017</Code>
+		<Description>Коммунальные услуги</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
